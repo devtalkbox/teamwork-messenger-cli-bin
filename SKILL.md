@@ -1,5 +1,5 @@
 ---
-name: teamwork-cli
+name: teamwork-messenger-cli-bin
 description: Access Teamwork messaging features using the official CLI tool. Read conversations, messages, users, and networks; send text or file messages to DMs and groups. Requires the API URL and API token.
 metadata:
   openclaw:
@@ -24,7 +24,7 @@ The CLI relies on stateless authentication via environment variables.
 | `TEAMWORK_API_URL` | Base URL of the Teamwork backend (e.g. `https://teamwork.example.com`) |
 | `TEAMWORK_API_TOKEN` | Your Teamwork API auth token |
 
-Ensure the `teamwork` CLI command is available (either via a global install, `npm link`, or by running locally).
+Ensure the `teamwork` CLI command is available. This package bundles the command through `index.js`.
 
 ## CLI Operations
 
