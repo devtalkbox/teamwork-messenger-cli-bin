@@ -51,10 +51,12 @@ teamwork user list
 ### Chat Commands
 
 **View Inbox**
-Fetch recent conversations for the current user.
+Fetch recent conversations for the current user. You can optionally specify the number of conversations to fetch.
 ```bash
-teamwork chat inbox
+teamwork chat inbox [size]
 ```
+- `[size]`: (Optional) The number of conversations to fetch. Defaults to 20.
+
 **Example Output:**
 ```text
 ┌─────────────────┬────────┬────────────────────┬───────────┐

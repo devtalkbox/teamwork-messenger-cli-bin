@@ -79,10 +79,12 @@ teamwork user list
 ### Chat & Conversations 
 
 **View Inbox**
-Fetch recent conversations for the current user including unread message counts.
+Fetch recent conversations for the current user including unread message counts. You can optionally specify the number of conversations to fetch.
 ```bash
-teamwork chat inbox
+teamwork chat inbox [size]
 ```
+- `[size]`: (Optional) The number of conversations to fetch. Defaults to 20.
+
 **Example Output:**
 ```text
 ┌─────────────────┬────────┬────────────────────┬───────────┐
