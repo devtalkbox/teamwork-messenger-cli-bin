@@ -1,0 +1,24 @@
+{
+  "name": "teamwork-messenger-cli-bin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "teamwork": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devtalkbox/teamwork-messenger-cli-bin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/devtalkbox/teamwork-messenger-cli-bin/issues"
+  },
+  "homepage": "https://github.com/devtalkbox/teamwork-messenger-cli-bin#readme"
+}
